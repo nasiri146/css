@@ -13,18 +13,16 @@
             background-color: #2965F1;
             color: white;
         }
-        
-        header a{
-            border: 1px solid black;
+
+        #main_logo:hover {
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
         }
 
-        header a:hover {
-            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 10);
-        }
-
-        header a,
-        img {
+        #main_logo {
             width: 75px;
+            height: 75px;
+            border-radius: 18px;
+            border: 0px solid black;
         }
 
         h2,
@@ -37,7 +35,7 @@
 <body>
     <header>
         <h1>
-            <a href="index.html" target="_self"><img src="./image/css3_logo.svg"></a>
+            <div id="main_logo"><a href="index.html" target="_self"><img src="./image/css3_logo.svg"></a></div>
             <!--<img src="./image/css3_logo.png"> 용량 겁나 큼-->
         </h1>
         <h2>CSS 사전</h2>
