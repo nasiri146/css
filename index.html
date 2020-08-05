@@ -9,12 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS 사전</title>
     <style>
+        ::selection {
+            background-color: #2965F1;
+            color: white;
+        }
+
         header a,
         img {
             width: 75px;
         }
 
-        h2 {
+        h2,
+        #thispage {
             color: #2965F1;
         }
     </style>
@@ -29,7 +35,9 @@
         <h2>CSS 사전</h2>
         <ul>
             <li>html</li>
-            <li>css</li>
+            <div id="thispage">
+                <li>css</li>
+            </div>
             <li>JavaScript</li>
         </ul>
     </header>
